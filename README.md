@@ -2,7 +2,7 @@
 
 Define pressure and temperature of a producing well, and get PVT properties of oil and gas produced.
 
-## package highlights:
+## package highlights
 - single-phase properties
     - oil: density, specific gravity
     - gas: pseudo-critical properties, compressibility, density, formation volume factor, viscosity

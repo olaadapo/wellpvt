@@ -11,11 +11,14 @@ Define pressure and temperature of a producing well, and get PVT properties of o
 ## example usage
 from wellpvt import Oil
 
-oil = Oil(40) # input oil API
+define produced oil with 40 deg. API  
+oil = Oil(40) 
 
-print(oil.api)
-\>> 40
-print(round(oil.calculate_sg(), 3))
-\>> 0.825
-print(round(oil.calculate_density(), 1))
-\>> 51.5
+print(oil.api)  
+\>> 40  
+
+print(round(oil.calculate_sg(), 3))  
+\>> 0.825  
+
+print(round(oil.calculate_density(), 1))  
+\>> 51.5  

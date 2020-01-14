@@ -1,21 +1,18 @@
-# project description
-
 Define pressure and temperature of a producing well, and get PVT properties of oil and gas produced.
 
-## installation
-
+## Installation
 `$ pip install wellpvt`
 
-## project highlights
+## Project Highlights
 - single-phase properties
-    - oil: density, specific gravity
-    - gas: pseudo-critical properties, compressibility, density, formation volume factor, viscosity
+    - **oil**: density, specific gravity
+    - **gas**: pseudo-critical properties, compressibility, density, formation volume factor, viscosity
 - multiphase mixture properties TBA
 
-## example usage
+## Example Usage
 define produced oil with 40 deg. API  
 
-`from wellpvt import Oil`
+`from wellpvt import Oil`  
      
 `oil = Oil(40)`   
 
@@ -28,6 +25,5 @@ define produced oil with 40 deg. API
 `print(round(oil.calculate_density(), 1))`    
 \>> `51.5`     
 
-## license
-
+## License
 wellpvt is licensed under the MIT License

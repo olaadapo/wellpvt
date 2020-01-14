@@ -1,10 +1,43 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.1
 Name: wellpvt
-Version: 0.1
+Version: 0.1.1
 Summary: Production well PVT calculations
-Home-page: UNKNOWN
-Author: UNKNOWN
-Author-email: UNKNOWN
+Home-page: https://github.com/olaadapo/wellpvt
+Author: Ade Oyewole
+Author-email: oyewoleadeoluwa@gmail.com
 License: UNKNOWN
-Description: UNKNOWN
+Description: Define pressure and temperature of a producing well, and get PVT properties of oil and gas produced.
+        
+        ## Installation
+        `$ pip install wellpvt`
+        
+        ## Project Highlights
+        - single-phase properties
+            - **oil**: density, specific gravity
+            - **gas**: pseudo-critical properties, compressibility, density, formation volume factor, viscosity
+        - multiphase mixture properties TBA
+        
+        ## Example Usage
+        define produced oil with 40 deg. API  
+        
+        `from wellpvt import Oil`  
+             
+        `oil = Oil(40)`   
+        
+        `print(oil.api)`    
+        \>> `40`  
+        
+        `print(round(oil.calculate_sg(), 3))`    
+        \>> `0.825`     
+        
+        `print(round(oil.calculate_density(), 1))`    
+        \>> `51.5`     
+        
+        ## License
+        wellpvt is licensed under the MIT License
 Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

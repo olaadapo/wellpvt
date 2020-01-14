@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setup(name='wellpvt'
-      , version='0.1' 
+      , version='0.1.1' 
       , author="Ade Oyewole"
       , author_email="oyewoleadeoluwa@gmail.com"
       , description='Production well PVT calculations'
@@ -17,5 +17,5 @@ setup(name='wellpvt'
           , "License :: OSI Approved :: MIT License"
           , "Operating System :: OS Independent"
         ]
-      , python_requires='>=3.6
+      , python_requires='>=3.6'
       , zip_safe=False)

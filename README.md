@@ -10,7 +10,7 @@ The development of the features are on-going, and the README will be updated as 
 
 ## Usage
 ```
-# Create a class to define the Oil produced
+# From package, import class to define the Oil produced
 from wellpvt import Oil
 
 # Declare an instance of the single-phase Oil

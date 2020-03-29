@@ -8,7 +8,7 @@ Sinlge-phase properties of Oil ( Density, Specific Gravity ) and Gas ( Pseudo-cr
 
 The development of the features are on-going, and the README will be updated as features are added.
 
-## Example Usage
+## Usage
 ```
 # Create a class to define the Oil produced
 from wellpvt import Oil

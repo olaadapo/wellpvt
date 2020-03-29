@@ -1,4 +1,4 @@
-Simple computations on single- and multi-phase properties of fluids ( Oil and Gas ) produced in a production system.
+Simple computations on single- and multi-phase properties of fluids ( Oil and Gas ) in a production system.
 
 ## Installation
 `$ pip install wellpvt`

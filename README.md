@@ -12,18 +12,26 @@ Define pressure and temperature of a producing well, and get PVT properties of o
 ## Example Usage
 define produced oil with 40 deg. API  
 
-`from wellpvt import Oil`  
-     
-`oil = Oil(40)`   
+```
+# Create a class to define the oil produced
+from wellpvt import Oil
 
-`print(oil.api)`    
-\>> `40`  
+# Declare an instance of the single-phase oil
+# Parameter passed in is the oil API Gravity
+oil = Oil(40)   
 
-`print(round(oil.calculate_sg(), 3))`    
-\>> `0.825`     
+# This is included as a property of the oil instance
+print(oil.api)    
+40  
 
-`print(round(oil.calculate_density(), 1))`    
-\>> `51.5`     
+# Calculate the Specific Gravity from the API
+print(round(oil.calculate_sg(), 3)) 
+0.825     
+
+# Calculate the oil Density from the API + Specific Gravity
+print(round(oil.calculate_density(), 1))
+51.5
+```
 
 ## License
 wellpvt is licensed under the MIT License
